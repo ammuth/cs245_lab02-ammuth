@@ -1,0 +1,8 @@
+Annaliese Muth
+Student ID: 20507369
+
+Lab 01
+
+Running Time: Lab01 runs in n-squared time or O(n-squared) = Quadratic time
+
+Space: There are 2 lines of declared temporary variables so 
