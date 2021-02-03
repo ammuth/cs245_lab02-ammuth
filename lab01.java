@@ -1,8 +1,7 @@
-import java.sql.SQLOutput;
 
 public class lab01 {
 
-	public static int highestAltitude (int [] gain) {
+	public int highestAltitude (int [] gain) {
 
 		int [] corresponding_altitudes = new int[gain.length+1];
 		corresponding_altitudes[0] = 0;
@@ -30,10 +29,10 @@ public class lab01 {
 		//integer array
 		int[] example1 = {-5,1,5,0,-7};
 		int[] example2 = {-4,-3,-2,-1,4,3,2};
-
+		lab01 p1 = new lab01();
 		//call printArray method by passing intArray as an argument
-		System.out.println(highestAltitude(example1));
-		System.out.println(highestAltitude(example2));
+		System.out.println(p1.highestAltitude(example1));
+		System.out.println(p1.highestAltitude(example2));
 	}
 
 }
