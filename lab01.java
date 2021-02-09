@@ -12,6 +12,10 @@ public class lab01 {
 			corresponding_altitudes[i] = corresponding_altitudes[i-1] + gain[i-1];
 
 		}
+		System.out.println("The corresponding altitudes are: ");
+		for (int e: corresponding_altitudes) {
+			System.out.print(e+" ,");
+		}
 
 		int max = corresponding_altitudes[0];
 		//for(int u = 0; u < corresponding_altitudes.length; u++) {
@@ -31,8 +35,8 @@ public class lab01 {
 		int[] example2 = {-4,-3,-2,-1,4,3,2};
 		lab01 p1 = new lab01();
 		//call printArray method by passing intArray as an argument
-		System.out.println(p1.highestAltitude(example1));
-		System.out.println(p1.highestAltitude(example2));
+		System.out.println("The highest of these altitudes is: "+ p1.highestAltitude(example1));
+		System.out.println("The highest of these altitudes is: "+ p1.highestAltitude(example2));
 	}
 
 }
