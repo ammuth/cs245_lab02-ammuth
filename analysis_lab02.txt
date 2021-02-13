@@ -1,0 +1,4 @@
+Annaliese Muth
+ID: 20507369
+
+To get to the pice of code I have for lab02 right now, I first used brute force. Then I tried to implement insertion sort to see if that would decrease the running time. Finally, I figured out a way to accomplish the twoSum() function without having nested for loops. In my function, I used a while loop to compare the sum of 2 of the  most outside values to the target. If it matches then return the index of both values. If the sum is less than the target, then move the left most i up 1, and if it's greater than the target, move the right most j down one.
