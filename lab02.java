@@ -1,5 +1,5 @@
 import java.util.*;
-
+//this was just used to print the array in one line, not for the function.
 public class lab02 {
     public int [] twoSum(int[] sum, int target) {
         int i = 0;
